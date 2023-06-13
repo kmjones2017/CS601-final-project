@@ -26,7 +26,7 @@ to no avail. Any insight on this would be much appreciated.
 
 Run it by opening your browser.
 
-#### What did I do to go above and beyond?
+### What did I do to go above and beyond?
 
 I used a CSS grid to organize the content on several pages.
 I used CSS flexbox in the header.
