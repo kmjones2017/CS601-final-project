@@ -1,0 +1,147 @@
+/* Relevant to all or multiple pages */
+header {
+    position: fixed;
+    background-color: purple;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(211, 105, 211);
+    margin: 0;
+}
+
+body a {
+    color: white;
+}
+
+body a:hover {
+    color: rgb(150, 246, 182);
+    transition: 0.15s;
+}
+
+main {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: purple;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+}
+
+.too-big {
+    width: 70%;
+    border-radius: 18px;
+}
+
+section {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+/* Interests page specific CSS */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+tfoot{
+    font-style: italic;
+}
+
+/* Hobbies page specific CSS */
+
+.anime-list {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Education page specific CSS */
+
+.a-little-smaller {
+    width: 30%;
+}
+
+/* Professional page specific CSS */
+
+.translations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 45px;
+}
+
+.card {
+    width: 70%;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 10pt;
+}
+
+blockquote {
+    font-size: 16pt;
+}
+
+article {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+/* Changes Depending on Screen size */
+
+@media  (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 20pt;
+    }
+    .grid-row {
+        grid-template-columns: 1fr;
+    }
+
+    .translations {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media  (min-width: 501px) and (max-width: 999px) {
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 30pt;
+    }
+    .translations {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media  (min-width: 1000px) {
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 40pt;
+    }
+
+}

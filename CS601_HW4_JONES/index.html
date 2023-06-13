@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Form</h1>
+      <form
+        id="form"
+        action="https://cs601.bu-course-examples.com/hw4/380a98f5-5191-496f-8aa1-7acc1da83cc5"
+        method="post"
+      >
+        <div id="firstNameInput" class="form-control">
+          <!-- First Name input -->
+          <label for="firstName" class="textbox-label"> First Name:</label
+          ><br />
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Kayla"
+          />
+          <div class="error-message"></div>
+          <br />
+        </div>
+
+        <div id="lastNameInput" class="form-control">
+          <!-- Last Name input -->
+          <label for="lastName" class="textbox-label">Last Name:</label><br />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Jones"
+          />
+          <div class="error-message"></div>
+          <br />
+        </div>
+
+        <div id="facilitatorInput" class="form-control">
+          <!-- Facilitator Name input -->
+          <label for="facilitator" class="textbox-label">Facilitator:</label>
+          <br />
+          <input
+            type="text"
+            name="facilitator"
+            id="facilitator"
+            placeholder="Josh"
+          />
+          <div class="error-message"></div>
+          <br />
+        </div>
+
+        <!-- Radio buttons -->
+        <fieldset>
+          <legend>Select your age:</legend>
+
+          <input type="radio" name="ageRange" id="age1" value="30" />
+          <label for="age1">0 - 30</label><br />
+
+          <input type="radio" name="ageRange" id="age2" value="60" />
+          <label for="age2">31 - 60</label><br />
+
+          <input type="radio" name="ageRange" id="age3" value="100" />
+          <label for="age3">61 - 100</label>
+        </fieldset>
+
+        <!-- Checkboxes -->
+        <fieldset>
+          <legend>Select your favorite color(s):</legend>
+
+          <input type="checkbox" id="red" value="red" />
+          <label for="red" id="Red">Red</label><br />
+
+          <input type="checkbox" id="blue" value="blue" />
+          <label for="blue" id="Blue">Blue</label><br />
+
+          <input type="checkbox" id="green" value="green" />
+          <label for="green" id="Green">Green</label><br />
+
+          <input type="checkbox" id="orange" value="orange" />
+          <label for="orange" id="Orange">Orange</label><br />
+
+          <input type="checkbox" id="purple" value="purple" />
+          <label for="purple" id="Purple">Purple</label><br />
+
+          <input type="checkbox" id="pink" value="pink" />
+          <label for="pink" id="Pink">Pink</label><br />
+
+          <input type="checkbox" id="yellow" value="yellow" />
+          <label for="yellow" id="Yellow">Yellow</label><br />
+
+          <input type="checkbox" id="brown" value="brown" />
+          <label for="brown" id="Brown">Brown</label><br />
+
+          <input type="checkbox" id="white" value="white" />
+          <label for="white" id="White">White</label><br />
+
+          <input type="checkbox" id="gray" value="gray" />
+          <label for="gray" id="Gray">Gray</label><br />
+
+          <input type="checkbox" id="black" value="black" />
+          <label for="black" id="Black">Black</label><br />
+        </fieldset>
+        <br />
+        <div class="buttons">
+          <input type="submit" id="submit-button" />
+          <input type="reset" id="reset-button" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
