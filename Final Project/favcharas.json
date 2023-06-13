@@ -1,0 +1,45 @@
+{
+    "favorite characters": [
+        {
+            "name": "C.C.",
+            "series": "Code Geass",
+            "year the series came out": 2006
+        },
+
+        {
+            "name": "Uchiha Madara",
+            "series": "Naruto Shippuden",
+            "year the series came out": 2007
+        },
+
+        {
+            "name": "Koko Hekmatyar",
+            "series": "Jormungand",
+            "year the series came out": 2012
+        },
+
+        {
+            "name": "Akemi Homura",
+            "series": "Puella Mahou Shoujo Madoka Magica",
+            "year the series came out": 2011
+        },
+
+        {
+            "name": "Esdeath",
+            "series": "Akame ga Kill!",
+            "year the series came out": 2014  
+        },
+
+        {
+            "name": "Kiryūin Satsuki",
+            "series": "Kill la Kill",
+            "year the series came out": 2013
+        },
+
+        {
+            "name": "Makima",
+            "series": "Chainsaw Man",
+            "year the series came out": 2022
+        }
+    ]
+}
