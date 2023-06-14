@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/global.css" />
+    <script src="./Scripts/formval.js" defer></script>
     <title>Contact Me</title>
   </head>
   <body>
@@ -27,21 +28,23 @@
       <!-- Form -->
       <form id="form">
         <label for="firstName">First Name:</label><br />
-        <input type="text" id="firstName" />
-        <div id="error-message"></div>
+        <input type="text" id="firstName" name="firstName" />
+        <div id="first-name-error" class="error-message-container"></div>
         <br />
         <label for="lastName">Last Name:</label><br />
-        <input type="text" id="lastName" />
-        <div id="error-message"></div>
+        <input type="text" id="lastName" name="lastName" />
+        <div id="last-name-error" class="error-message-container"></div>
         <br />
 
         <label for="email">Email:</label><br />
-        <input type="text" id="email" />
-        <div id="error-message"></div>
+        <input type="text" id="email" name="email" />
+        <div id="email-error" class="error-message-container"></div>
         <br />
 
         <label for="textBox">Message:</label><br />
-        <textarea id="textBox" cols="50" rows="10"></textarea><br />
+        <textarea id="textBox" name="textBox" cols="50" rows="10"></textarea>
+        <div id="message-error" class="error-message-container"></div>
+        <br />
 
         <input type="submit" value="Submit" id="submit-button" />
       </form>

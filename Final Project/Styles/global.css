@@ -154,7 +154,7 @@ input[type=text], textarea {
 }
 
 .error-message {
-    color: rgb(146, 44, 44);
+    color: rgb(177, 28, 28);
     font-weight: bold;
 }
 
