@@ -46,5 +46,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Code for validating form
 
-
   
