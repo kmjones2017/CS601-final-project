@@ -1,3 +1,4 @@
+// Code for making a table of favorite characters
 document.addEventListener("DOMContentLoaded", function() {
     const tableContainer = document.getElementById("table-container");
     const url = "favcharas.json";
@@ -42,4 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
       return table;
     }
   });
+
+// Code for validating form
+
+
   
