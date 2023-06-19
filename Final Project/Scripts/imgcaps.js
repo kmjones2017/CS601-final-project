@@ -12,7 +12,7 @@ new Vue({
         {
           id: 2,
           source: "./Assets/Saaya.jpg",
-          alt: "A goodbye letter from Saaya.",
+          alt: "A goodbye letter from Sāya.",
           hovered: false,
           caption: "A goodbye letter from Sāya.",
         },
@@ -33,7 +33,7 @@ new Vue({
         {
           id: 5,
           source: "./Assets/Matsumoto_Yuuri.jpg",
-          alt: "A goodbye letter form Yuuri.",
+          alt: "A goodbye letter form Yūri.",
           hovered: false,
           caption: "Translation: Thank you, Kayla-sensei! I dislike English class, but with you, it was fun! English class became so fun! I anxiously awaited every Friday that we had class. Even if you're not here anymore, I'll give English class my all! Thank you very much! Matsumoto Yūri",
         },
