@@ -7,6 +7,7 @@ header {
     width: 100%;
     margin-top: -20px;
     border: 2px solid black;
+    z-index: 100;
 }
 
 nav {
@@ -86,17 +87,25 @@ blockquote {
 table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 60px;
+    border-collapse: collapse;
 }
 
-caption {
+td, th {
+    border: 1px double #180a78;
+    padding: 1.2rem;
+  }
+
+tr:nth-child(odd) {
+    background-color: rgb(170, 104, 231);
+  }
+
+#table-caption {
+    font-size: 1.2em;
     font-weight: bold;
-    font-size: 16pt;
-}
-
-tfoot{
-    font-style: italic;
+    padding: 1.5em;
+    margin-bottom: 0;
 }
 
 /* Hobbies page specific CSS */
@@ -116,7 +125,7 @@ tfoot{
 
 .translations {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 45px;
 }
 
@@ -124,6 +133,28 @@ tfoot{
     width: 70%;
     border-radius: 10px;
 }
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    display: none;
+    font-style: italic;
+    white-space: pre-line;
+    font-size: large;
+  }
+  
+  .card-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card-container:hover .caption {
+    display: block;
+  }    
 
 /* Hometown page specific CSS */
 
@@ -133,13 +164,19 @@ article {
     padding-bottom: 40px;
 }
 
+details > p {
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
 /* Contact Me page specific CSS */
 
 label {
     font-weight: bold;
 }
 
-#submit-button {
+#submit-button, #reset-button {
     background-color: blueviolet;
     border: 4px;
     border-color: purple;
@@ -147,6 +184,18 @@ label {
     color: aliceblue;
     font-weight: bold;
     padding: 12px;
+    margin: 20px;
+}
+
+#submit-button:hover, #reset-button:hover {
+    background-color: rgb(130, 226, 125);
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 input[type=text], textarea {
@@ -156,13 +205,6 @@ input[type=text], textarea {
 .error-message {
     color: rgb(177, 28, 28);
     font-weight: bold;
-}
-
-.error input[type=text] {
-    background-color: rgb(245, 74, 74);
-    border: 2px;
-    border-style: double;
-    border-color: black;
 }
 
 form {
@@ -218,10 +260,7 @@ form {
     }
     h1 {
         font-size: 30pt;
-    }
-    .translations {
-        grid-template-columns: 1fr 1fr;
-    }
+}
 }
 
 @media  (min-width: 1000px) {
