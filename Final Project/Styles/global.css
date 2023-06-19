@@ -217,6 +217,11 @@ form {
     
 }
 
+#success-message {
+    color: green;
+    font-weight: bold;
+}
+
 /* Changes Depending on Screen size */
 
 @media (max-width: 500px) {
