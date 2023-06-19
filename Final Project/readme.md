@@ -39,4 +39,4 @@ I finally figured out how to make the navigation menu convert between vertical a
 
 ## Week 6
 
-I finally finished the project. It was a long journey, but a rewarding one. For some reason, VS Code refused to commit all of the changes I made, though.
+I finally finished the project. It was a long journey, but a rewarding one.
