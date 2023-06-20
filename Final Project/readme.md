@@ -40,3 +40,7 @@ I finally figured out how to make the navigation menu convert between vertical a
 ## Week 6
 
 I finally finished the project. It was a long journey, but a rewarding one.
+
+### How do you run this?
+
+By opening it with your browswer or going to this website: https://cs601-final-project-kj.glitch.me/home.html
